@@ -8,7 +8,7 @@
 ### PENJELASAN DESAIN PROGRAM
 Disini saya membuat desain dengan menggabungkan 2 kelas yaitu kelas ParkingLot dan kelas Garage menjadi kelas VehicleStorage. Hal ini dikarenakan kedua kelas tersebut memiliki jenis yang sama, yaitu sama-sama tempat penyimpanan kendaraan. Selain itu, atribut di dalam kelas ParkingLot dibutuhkan juga di dalam kelas Garage, begitupun sebaliknya. Selanjutnya disini saya mendesain kelas Vehicle sebagai kelas parent (orang tua) dari kelas Car dan kelas Motorcycle. Kedua kelas tersebut menjadi kelas child dari kelas Vehicle karena kedua kelas tersebut memiliki jenis yang sama yaitu “Is A” Vehicle. Oleh karena itu, hubungan kelas Vehicle dengan kelas Car dan kelas Motorcycle adalah Inheritance dengan tipe Hierarchical. Selanjutnya dalam desain ini juga terdapat hubungan composite, yaitu kelas VehicleStorage yang memiliki hubungan composite dengan kelas Vehicle, karena atribut di dalam kelas Vehicle dapat digunakan di kelas VehicleStorage (VehicleStorage “Has A” Vehicle).
 
-### ALUR DESAIN PROGRAM
+### ALUR PROGRAM
 1. Pertama user diminta untuk memasukkan informasi tentang tempat penyimpanan kendaraan, seperti Nama Tempat, Luas Tempat, dan Kapasitas Tempat. Input tersebut kemudian disimpan dalam objek `parkiran` yang merupakan instansiasi dari kelas `VehicleStorage`.
 
 2. Program menampilkan pesan selamat datang di pusat informasi kendaraan, dengan mencetak nama tempat penyimpanan kendaraan yang telah dimasukkan sebelumnya.
@@ -36,3 +36,8 @@ Disini saya membuat desain dengan menggabungkan 2 kelas yaitu kelas ParkingLot d
 9. Jika user memilih untuk melihat informasi tentang tempat penyimpanan kendaraan (pilihan 3), program akan mencetak informasi tentang tempat penyimpanan kendaraan, seperti nama tempat, luas tempat, kapasitas tempat, jumlah kendaraan saat ini, jumlah mobil, dan jumlah motor.
 
 10. Setelah memproses pilihan user, program kembali ke langkah 4 dan menunggu input pilihan menu selanjutnya dari user. Proses ini akan berulang sampai user memilih untuk keluar dari program.
+
+### DOKUMENTASI PROGRAM
+![SS1](https://github.com/rerevana/LP4DPBO2024C2/assets/113984261/c35d598c-492e-4503-acaa-434ef2e4824a)
+![SS2](https://github.com/rerevana/LP4DPBO2024C2/assets/113984261/6492ed95-e913-4e5c-8658-f5db6482d7f6)
+![SS3](https://github.com/rerevana/LP4DPBO2024C2/assets/113984261/fb47db32-2708-4de8-a221-8ffa67f3d85c)
